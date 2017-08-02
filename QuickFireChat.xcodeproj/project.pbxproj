@@ -1,0 +1,955 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00441E151EED3491004A12C3 /* ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00441E141EED3491004A12C3 /* ProgressHUD.swift */; };
+		005589371F1279F6002D57BE /* FriendListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005589361F1279F6002D57BE /* FriendListVC.swift */; };
+		0061F73B1F1559DD006DED6A /* FirebaseUserSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0061F73A1F1559DD006DED6A /* FirebaseUserSystem.swift */; };
+		006411C61F252BAA00EE9D2F /* Friend_block_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 006411C41F252BAA00EE9D2F /* Friend_block_icon.png */; };
+		006411C71F252BAA00EE9D2F /* FriendPending_iocn.png in Resources */ = {isa = PBXBuildFile; fileRef = 006411C51F252BAA00EE9D2F /* FriendPending_iocn.png */; };
+		006411CA1F253A8000EE9D2F /* ModelFriendRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006411C91F253A8000EE9D2F /* ModelFriendRequest.swift */; };
+		00713E681EEBD29100DD8D44 /* GlobalUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00713E5E1EEBD29100DD8D44 /* GlobalUserDefaults.swift */; };
+		00713E691EEBD29100DD8D44 /* ReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00713E621EEBD29100DD8D44 /* ReachabilityManager.m */; };
+		00713E6A1EEBD29100DD8D44 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 00713E651EEBD29100DD8D44 /* Reachability.m */; };
+		00713E7F1EEBD2B700DD8D44 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00713E721EEBD2B700DD8D44 /* LICENSE.txt */; };
+		00713E801EEBD2B700DD8D44 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00713E731EEBD2B700DD8D44 /* Roboto-Black.ttf */; };
+		00713E811EEBD2B700DD8D44 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00713E741EEBD2B700DD8D44 /* Roboto-BlackItalic.ttf */; };
+		00713E821EEBD2B700DD8D44 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00713E751EEBD2B700DD8D44 /* Roboto-Bold.ttf */; };
+		00713E831EEBD2B700DD8D44 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00713E761EEBD2B700DD8D44 /* Roboto-BoldItalic.ttf */; };
+		00713E841EEBD2B700DD8D44 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00713E771EEBD2B700DD8D44 /* Roboto-Italic.ttf */; };
+		00713E851EEBD2B700DD8D44 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00713E781EEBD2B700DD8D44 /* Roboto-Light.ttf */; };
+		00713E861EEBD2B700DD8D44 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00713E791EEBD2B700DD8D44 /* Roboto-LightItalic.ttf */; };
+		00713E871EEBD2B700DD8D44 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00713E7A1EEBD2B700DD8D44 /* Roboto-Medium.ttf */; };
+		00713E881EEBD2B700DD8D44 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00713E7B1EEBD2B700DD8D44 /* Roboto-MediumItalic.ttf */; };
+		00713E891EEBD2B700DD8D44 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00713E7C1EEBD2B700DD8D44 /* Roboto-Regular.ttf */; };
+		00713E8A1EEBD2B700DD8D44 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00713E7D1EEBD2B700DD8D44 /* Roboto-Thin.ttf */; };
+		00713E8B1EEBD2B700DD8D44 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00713E7E1EEBD2B700DD8D44 /* Roboto-ThinItalic.ttf */; };
+		00713E941EEBD2D200DD8D44 /* EditProfileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00713E901EEBD2D200DD8D44 /* EditProfileTableViewCell.m */; };
+		00713EC11EEBD30600DD8D44 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00713EAD1EEBD30600DD8D44 /* BaseViewController.swift */; };
+		00713EC51EEBD30600DD8D44 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00713EB71EEBD30600DD8D44 /* LoginViewController.swift */; };
+		00713ECA1EEBD31500DD8D44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00713EC91EEBD31500DD8D44 /* Assets.xcassets */; };
+		00713ECC1EEBD35000DD8D44 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00713ECB1EEBD35000DD8D44 /* Info.plist */; };
+		00713ED01EEBD42F00DD8D44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00713ECF1EEBD42F00DD8D44 /* main.m */; };
+		00713EEA1EEBD4A400DD8D44 /* back_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 00713ED31EEBD4A400DD8D44 /* back_arrow.png */; };
+		00713EEB1EEBD4A400DD8D44 /* bg_chat_1242x2208.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00713ED41EEBD4A400DD8D44 /* bg_chat_1242x2208.jpg */; };
+		00713EEC1EEBD4A400DD8D44 /* bg_chat_640x1136.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00713ED51EEBD4A400DD8D44 /* bg_chat_640x1136.jpg */; };
+		00713EED1EEBD4A400DD8D44 /* bg_chat_640x960.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00713ED61EEBD4A400DD8D44 /* bg_chat_640x960.jpg */; };
+		00713EEE1EEBD4A400DD8D44 /* bg_chat_750x1334.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00713ED71EEBD4A400DD8D44 /* bg_chat_750x1334.jpg */; };
+		00713EEF1EEBD4A400DD8D44 /* bio_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00713ED81EEBD4A400DD8D44 /* bio_icon.png */; };
+		00713EF01EEBD4A400DD8D44 /* calender_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00713ED91EEBD4A400DD8D44 /* calender_icon.png */; };
+		00713EF11EEBD4A400DD8D44 /* camera-256.png in Resources */ = {isa = PBXBuildFile; fileRef = 00713EDA1EEBD4A400DD8D44 /* camera-256.png */; };
+		00713EF21EEBD4A400DD8D44 /* camera_red_icon_128x128.png in Resources */ = {isa = PBXBuildFile; fileRef = 00713EDB1EEBD4A400DD8D44 /* camera_red_icon_128x128.png */; };
+		00713EF31EEBD4A400DD8D44 /* changePassword_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00713EDC1EEBD4A400DD8D44 /* changePassword_icon.png */; };
+		00713EF41EEBD4A400DD8D44 /* edit_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 00713EDD1EEBD4A400DD8D44 /* edit_profile.png */; };
+		00713EF51EEBD4A400DD8D44 /* f_logo_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 00713EDE1EEBD4A400DD8D44 /* f_logo_white.png */; };
+		00713EF61EEBD4A400DD8D44 /* forgot_pass.png in Resources */ = {isa = PBXBuildFile; fileRef = 00713EDF1EEBD4A400DD8D44 /* forgot_pass.png */; };
+		00713EF71EEBD4A400DD8D44 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 00713EE11EEBD4A400DD8D44 /* mail.png */; };
+		00713EF81EEBD4A400DD8D44 /* password_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00713EE21EEBD4A400DD8D44 /* password_icon@2x.png */; };
+		00713EF91EEBD4A400DD8D44 /* user_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00713EE31EEBD4A400DD8D44 /* user_icon@2x.png */; };
+		00713EFA1EEBD4A400DD8D44 /* password_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00713EE51EEBD4A400DD8D44 /* password_icon@3x.png */; };
+		00713EFB1EEBD4A400DD8D44 /* user_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00713EE61EEBD4A400DD8D44 /* user_icon@3x.png */; };
+		00713EFC1EEBD4A400DD8D44 /* location_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00713EE71EEBD4A400DD8D44 /* location_icon.png */; };
+		00713EFD1EEBD4A400DD8D44 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 00713EE81EEBD4A400DD8D44 /* logo.png */; };
+		00713EFE1EEBD4A400DD8D44 /* phone_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00713EE91EEBD4A400DD8D44 /* phone_icon.png */; };
+		007F0A3A1F00024E00A0AD8B /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007F0A391F00024E00A0AD8B /* RoundedButton.swift */; };
+		008BDC571F083E14004EB628 /* SignUpTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008BDC561F083E14004EB628 /* SignUpTableViewCell.swift */; };
+		0097092B1F116CDB00157CB8 /* ModelUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0097092A1F116CDB00157CB8 /* ModelUserInfo.swift */; };
+		00AF96461F12B2F8002C7BBA /* UserListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AF96441F12B2F8002C7BBA /* UserListTableViewCell.swift */; };
+		00AF964C1F12B32A002C7BBA /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AF96481F12B32A002C7BBA /* DashboardVC.swift */; };
+		00AF96501F12B394002C7BBA /* UserListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AF964F1F12B394002C7BBA /* UserListVC.swift */; };
+		00DC6E2C1EEC60E30035E5DC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00DC6E2B1EEC60E30035E5DC /* GoogleService-Info.plist */; };
+		00E330191F1225E900A53468 /* FriendListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E330171F1225E900A53468 /* FriendListTableViewCell.swift */; };
+		00E3301A1F1225E900A53468 /* FriendListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00E330181F1225E900A53468 /* FriendListTableViewCell.xib */; };
+		00E9E72E1EF5BAF300325A50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E9E72D1EF5BAF300325A50 /* AppDelegate.m */; };
+		00EA2CFD1EF70EBF00F0550F /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EA2CFC1EF70EBF00F0550F /* SignUpVC.swift */; };
+		00EA2D021EF714E000F0550F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00EA2CFE1EF714E000F0550F /* LaunchScreen.storyboard */; };
+		00EA2D031EF714E000F0550F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00EA2D001EF714E000F0550F /* Main.storyboard */; };
+		00EA2D051EF7191A00F0550F /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = 00EA2D041EF7191A00F0550F /* fire.png */; };
+		06B5EB626280139561A033DB /* Pods_QuickFireChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFED0DCF75332EFA97BEDE6 /* Pods_QuickFireChat.framework */; };
+		CD1E929E1EFBA8340044BB79 /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = CD1E929D1EFBA8340044BB79 /* avatar.png */; };
+		CD1E92A11EFBD83A0044BB79 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1E92A01EFBD83A0044BB79 /* ImagePicker.swift */; };
+		CD8FAAB51F136522006D79F1 /* FriendRequest_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CD8FAAB41F136522006D79F1 /* FriendRequest_icon.png */; };
+		CD8FAAB71F13662B006D79F1 /* FriendAccept_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CD8FAAB61F13662B006D79F1 /* FriendAccept_icon.png */; };
+		CD8FAAB91F136BCF006D79F1 /* FriendReject_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CD8FAAB81F136BCF006D79F1 /* FriendReject_icon.png */; };
+		CDA4A6861EF7C1CD00FDB2F5 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA4A6851EF7C1CD00FDB2F5 /* ForgotPasswordVC.swift */; };
+		CDAA25341F0148AB005048BF /* LoginTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA25331F0148AB005048BF /* LoginTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		003D5A651CA7CB7F0075E5FD /* QuickFireChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickFireChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00441E141EED3491004A12C3 /* ProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressHUD.swift; sourceTree = "<group>"; };
+		005589361F1279F6002D57BE /* FriendListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendListVC.swift; sourceTree = "<group>"; };
+		0061F73A1F1559DD006DED6A /* FirebaseUserSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseUserSystem.swift; sourceTree = "<group>"; };
+		006411C41F252BAA00EE9D2F /* Friend_block_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Friend_block_icon.png; sourceTree = "<group>"; };
+		006411C51F252BAA00EE9D2F /* FriendPending_iocn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FriendPending_iocn.png; sourceTree = "<group>"; };
+		006411C91F253A8000EE9D2F /* ModelFriendRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelFriendRequest.swift; sourceTree = "<group>"; };
+		00713E5E1EEBD29100DD8D44 /* GlobalUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalUserDefaults.swift; sourceTree = "<group>"; };
+		00713E5F1EEBD29100DD8D44 /* QickChat-Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QickChat-Constant.h"; sourceTree = "<group>"; };
+		00713E611EEBD29100DD8D44 /* ReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachabilityManager.h; sourceTree = "<group>"; };
+		00713E621EEBD29100DD8D44 /* ReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachabilityManager.m; sourceTree = "<group>"; };
+		00713E641EEBD29100DD8D44 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		00713E651EEBD29100DD8D44 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		00713E721EEBD2B700DD8D44 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		00713E731EEBD2B700DD8D44 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		00713E741EEBD2B700DD8D44 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		00713E751EEBD2B700DD8D44 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		00713E761EEBD2B700DD8D44 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		00713E771EEBD2B700DD8D44 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		00713E781EEBD2B700DD8D44 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		00713E791EEBD2B700DD8D44 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		00713E7A1EEBD2B700DD8D44 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		00713E7B1EEBD2B700DD8D44 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		00713E7C1EEBD2B700DD8D44 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		00713E7D1EEBD2B700DD8D44 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		00713E7E1EEBD2B700DD8D44 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		00713E8F1EEBD2D200DD8D44 /* EditProfileTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditProfileTableViewCell.h; sourceTree = "<group>"; };
+		00713E901EEBD2D200DD8D44 /* EditProfileTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProfileTableViewCell.m; sourceTree = "<group>"; };
+		00713EAD1EEBD30600DD8D44 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		00713EB71EEBD30600DD8D44 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		00713EC91EEBD31500DD8D44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = QuickFireChat/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		00713ECB1EEBD35000DD8D44 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = QuickFireChat/Info.plist; sourceTree = SOURCE_ROOT; };
+		00713ECD1EEBD3FA00DD8D44 /* QuickFireChat-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "QuickFireChat-Prefix.pch"; path = "QuickFireChat/QuickFireChat-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		00713ECF1EEBD42F00DD8D44 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = QuickFireChat/main.m; sourceTree = SOURCE_ROOT; };
+		00713ED31EEBD4A400DD8D44 /* back_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_arrow.png; sourceTree = "<group>"; };
+		00713ED41EEBD4A400DD8D44 /* bg_chat_1242x2208.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_chat_1242x2208.jpg; sourceTree = "<group>"; };
+		00713ED51EEBD4A400DD8D44 /* bg_chat_640x1136.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_chat_640x1136.jpg; sourceTree = "<group>"; };
+		00713ED61EEBD4A400DD8D44 /* bg_chat_640x960.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_chat_640x960.jpg; sourceTree = "<group>"; };
+		00713ED71EEBD4A400DD8D44 /* bg_chat_750x1334.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_chat_750x1334.jpg; sourceTree = "<group>"; };
+		00713ED81EEBD4A400DD8D44 /* bio_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bio_icon.png; sourceTree = "<group>"; };
+		00713ED91EEBD4A400DD8D44 /* calender_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calender_icon.png; sourceTree = "<group>"; };
+		00713EDA1EEBD4A400DD8D44 /* camera-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-256.png"; sourceTree = "<group>"; };
+		00713EDB1EEBD4A400DD8D44 /* camera_red_icon_128x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_red_icon_128x128.png; sourceTree = "<group>"; };
+		00713EDC1EEBD4A400DD8D44 /* changePassword_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = changePassword_icon.png; sourceTree = "<group>"; };
+		00713EDD1EEBD4A400DD8D44 /* edit_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit_profile.png; sourceTree = "<group>"; };
+		00713EDE1EEBD4A400DD8D44 /* f_logo_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = f_logo_white.png; sourceTree = "<group>"; };
+		00713EDF1EEBD4A400DD8D44 /* forgot_pass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forgot_pass.png; sourceTree = "<group>"; };
+		00713EE11EEBD4A400DD8D44 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
+		00713EE21EEBD4A400DD8D44 /* password_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "password_icon@2x.png"; sourceTree = "<group>"; };
+		00713EE31EEBD4A400DD8D44 /* user_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user_icon@2x.png"; sourceTree = "<group>"; };
+		00713EE51EEBD4A400DD8D44 /* password_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "password_icon@3x.png"; sourceTree = "<group>"; };
+		00713EE61EEBD4A400DD8D44 /* user_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user_icon@3x.png"; sourceTree = "<group>"; };
+		00713EE71EEBD4A400DD8D44 /* location_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location_icon.png; sourceTree = "<group>"; };
+		00713EE81EEBD4A400DD8D44 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		00713EE91EEBD4A400DD8D44 /* phone_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone_icon.png; sourceTree = "<group>"; };
+		007F0A391F00024E00A0AD8B /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		008BDC561F083E14004EB628 /* SignUpTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpTableViewCell.swift; sourceTree = "<group>"; };
+		0097092A1F116CDB00157CB8 /* ModelUserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelUserInfo.swift; sourceTree = "<group>"; };
+		00AF96441F12B2F8002C7BBA /* UserListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListTableViewCell.swift; sourceTree = "<group>"; };
+		00AF96481F12B32A002C7BBA /* DashboardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
+		00AF964F1F12B394002C7BBA /* UserListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListVC.swift; sourceTree = "<group>"; };
+		00CC03C41F12CB490027C9F2 /* QuickFireChat-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QuickFireChat-Bridging-Header.h"; sourceTree = "<group>"; };
+		00DC6E2B1EEC60E30035E5DC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		00E330171F1225E900A53468 /* FriendListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendListTableViewCell.swift; sourceTree = "<group>"; };
+		00E330181F1225E900A53468 /* FriendListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendListTableViewCell.xib; sourceTree = "<group>"; };
+		00E9E72C1EF5BAF300325A50 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00E9E72D1EF5BAF300325A50 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00EA2CFC1EF70EBF00F0550F /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		00EA2CFF1EF714E000F0550F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = QuickFireChat/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		00EA2D011EF714E000F0550F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = QuickFireChat/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		00EA2D041EF7191A00F0550F /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fire.png; sourceTree = "<group>"; };
+		3FFED0DCF75332EFA97BEDE6 /* Pods_QuickFireChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickFireChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AC93CCD9378AE17EDAA1928 /* Pods-QuickFireChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickFireChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickFireChat/Pods-QuickFireChat.debug.xcconfig"; sourceTree = "<group>"; };
+		CD1E929D1EFBA8340044BB79 /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
+		CD1E92A01EFBD83A0044BB79 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		CD8FAAB41F136522006D79F1 /* FriendRequest_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FriendRequest_icon.png; sourceTree = "<group>"; };
+		CD8FAAB61F13662B006D79F1 /* FriendAccept_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FriendAccept_icon.png; sourceTree = "<group>"; };
+		CD8FAAB81F136BCF006D79F1 /* FriendReject_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FriendReject_icon.png; sourceTree = "<group>"; };
+		CDA4A6851EF7C1CD00FDB2F5 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		CDAA25331F0148AB005048BF /* LoginTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTableViewCell.swift; sourceTree = "<group>"; };
+		F417C91B12331830C8FE4589 /* Pods-QuickFireChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickFireChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickFireChat/Pods-QuickFireChat.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		003D5A621CA7CB7E0075E5FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B5EB626280139561A033DB /* Pods_QuickFireChat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		003D5A5C1CA7CB7E0075E5FD = {
+			isa = PBXGroup;
+			children = (
+				003D5A671CA7CB7F0075E5FD /* QuickFireChat */,
+				00DC6E2B1EEC60E30035E5DC /* GoogleService-Info.plist */,
+				00713ED21EEBD4A400DD8D44 /* images */,
+				003D5A661CA7CB7F0075E5FD /* Products */,
+				CFE587A09B7D9552EF152F40 /* Pods */,
+				3EEB954F0640FA82360EDFFA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		003D5A661CA7CB7F0075E5FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				003D5A651CA7CB7F0075E5FD /* QuickFireChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		003D5A671CA7CB7F0075E5FD /* QuickFireChat */ = {
+			isa = PBXGroup;
+			children = (
+				00713E6B1EEBD2A700DD8D44 /* Appdelegate */,
+				00713E711EEBD2B700DD8D44 /* Roboto fonts */,
+				00713E571EEBD29100DD8D44 /* Custom Class */,
+				0061F7391F1559DD006DED6A /* FirebaseUserSystem */,
+				00713E8C1EEBD2D200DD8D44 /* Cell */,
+				00713E961EEBD2E600DD8D44 /* Model */,
+				00713EAB1EEBD30600DD8D44 /* ViewControllers */,
+				00EA2CFE1EF714E000F0550F /* LaunchScreen.storyboard */,
+				00EA2D001EF714E000F0550F /* Main.storyboard */,
+				00713EC91EEBD31500DD8D44 /* Assets.xcassets */,
+				00713ECB1EEBD35000DD8D44 /* Info.plist */,
+				003D5A681CA7CB7F0075E5FD /* Supporting Files */,
+				00CC03C41F12CB490027C9F2 /* QuickFireChat-Bridging-Header.h */,
+			);
+			path = QuickFireChat;
+			sourceTree = "<group>";
+		};
+		003D5A681CA7CB7F0075E5FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00713ECF1EEBD42F00DD8D44 /* main.m */,
+				00713ECD1EEBD3FA00DD8D44 /* QuickFireChat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00441E131EED3472004A12C3 /* Custom Activity Indicator */ = {
+			isa = PBXGroup;
+			children = (
+				00441E141EED3491004A12C3 /* ProgressHUD.swift */,
+			);
+			path = "Custom Activity Indicator";
+			sourceTree = "<group>";
+		};
+		005589351F1279BD002D57BE /* Friend List */ = {
+			isa = PBXGroup;
+			children = (
+				005589361F1279F6002D57BE /* FriendListVC.swift */,
+			);
+			path = "Friend List";
+			sourceTree = "<group>";
+		};
+		0061F7391F1559DD006DED6A /* FirebaseUserSystem */ = {
+			isa = PBXGroup;
+			children = (
+				0061F73A1F1559DD006DED6A /* FirebaseUserSystem.swift */,
+			);
+			name = FirebaseUserSystem;
+			path = "Custom Class/FirebaseUserSystem";
+			sourceTree = "<group>";
+		};
+		006411C81F253A3200EE9D2F /* Friend Request */ = {
+			isa = PBXGroup;
+			children = (
+				006411C91F253A8000EE9D2F /* ModelFriendRequest.swift */,
+			);
+			path = "Friend Request";
+			sourceTree = "<group>";
+		};
+		00713E571EEBD29100DD8D44 /* Custom Class */ = {
+			isa = PBXGroup;
+			children = (
+				CD1E929F1EFBD8070044BB79 /* Image Picker */,
+				00713E5B1EEBD29100DD8D44 /* Designables */,
+				00441E131EED3472004A12C3 /* Custom Activity Indicator */,
+				00713E5D1EEBD29100DD8D44 /* Global UserDefault */,
+				00713E5F1EEBD29100DD8D44 /* QickChat-Constant.h */,
+				00713E601EEBD29100DD8D44 /* ReachabilityManager */,
+			);
+			name = "Custom Class";
+			path = "QuickFireChat/Custom Class";
+			sourceTree = SOURCE_ROOT;
+		};
+		00713E5B1EEBD29100DD8D44 /* Designables */ = {
+			isa = PBXGroup;
+			children = (
+				007F0A391F00024E00A0AD8B /* RoundedButton.swift */,
+			);
+			path = Designables;
+			sourceTree = "<group>";
+		};
+		00713E5D1EEBD29100DD8D44 /* Global UserDefault */ = {
+			isa = PBXGroup;
+			children = (
+				00713E5E1EEBD29100DD8D44 /* GlobalUserDefaults.swift */,
+			);
+			path = "Global UserDefault";
+			sourceTree = "<group>";
+		};
+		00713E601EEBD29100DD8D44 /* ReachabilityManager */ = {
+			isa = PBXGroup;
+			children = (
+				00713E611EEBD29100DD8D44 /* ReachabilityManager.h */,
+				00713E621EEBD29100DD8D44 /* ReachabilityManager.m */,
+				00713E631EEBD29100DD8D44 /* Rechability */,
+			);
+			path = ReachabilityManager;
+			sourceTree = "<group>";
+		};
+		00713E631EEBD29100DD8D44 /* Rechability */ = {
+			isa = PBXGroup;
+			children = (
+				00713E641EEBD29100DD8D44 /* Reachability.h */,
+				00713E651EEBD29100DD8D44 /* Reachability.m */,
+			);
+			path = Rechability;
+			sourceTree = "<group>";
+		};
+		00713E6B1EEBD2A700DD8D44 /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				00E9E72C1EF5BAF300325A50 /* AppDelegate.h */,
+				00E9E72D1EF5BAF300325A50 /* AppDelegate.m */,
+			);
+			name = Appdelegate;
+			path = QuickFireChat/Appdelegate;
+			sourceTree = SOURCE_ROOT;
+		};
+		00713E711EEBD2B700DD8D44 /* Roboto fonts */ = {
+			isa = PBXGroup;
+			children = (
+				00713E721EEBD2B700DD8D44 /* LICENSE.txt */,
+				00713E731EEBD2B700DD8D44 /* Roboto-Black.ttf */,
+				00713E741EEBD2B700DD8D44 /* Roboto-BlackItalic.ttf */,
+				00713E751EEBD2B700DD8D44 /* Roboto-Bold.ttf */,
+				00713E761EEBD2B700DD8D44 /* Roboto-BoldItalic.ttf */,
+				00713E771EEBD2B700DD8D44 /* Roboto-Italic.ttf */,
+				00713E781EEBD2B700DD8D44 /* Roboto-Light.ttf */,
+				00713E791EEBD2B700DD8D44 /* Roboto-LightItalic.ttf */,
+				00713E7A1EEBD2B700DD8D44 /* Roboto-Medium.ttf */,
+				00713E7B1EEBD2B700DD8D44 /* Roboto-MediumItalic.ttf */,
+				00713E7C1EEBD2B700DD8D44 /* Roboto-Regular.ttf */,
+				00713E7D1EEBD2B700DD8D44 /* Roboto-Thin.ttf */,
+				00713E7E1EEBD2B700DD8D44 /* Roboto-ThinItalic.ttf */,
+			);
+			name = "Roboto fonts";
+			path = "QuickFireChat/Roboto fonts";
+			sourceTree = SOURCE_ROOT;
+		};
+		00713E8C1EEBD2D200DD8D44 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				00713E8D1EEBD2D200DD8D44 /* Tableview Cell */,
+			);
+			name = Cell;
+			path = QuickFireChat/Cell;
+			sourceTree = SOURCE_ROOT;
+		};
+		00713E8D1EEBD2D200DD8D44 /* Tableview Cell */ = {
+			isa = PBXGroup;
+			children = (
+				008BDC551F083DF7004EB628 /* SignUp */,
+				CDAA25321F01488E005048BF /* Login */,
+				00713E8E1EEBD2D200DD8D44 /* Edit Profile */,
+				00AF96411F12B2F8002C7BBA /* UserList */,
+				00E330161F1225BA00A53468 /* FriendList */,
+			);
+			path = "Tableview Cell";
+			sourceTree = "<group>";
+		};
+		00713E8E1EEBD2D200DD8D44 /* Edit Profile */ = {
+			isa = PBXGroup;
+			children = (
+				00713E8F1EEBD2D200DD8D44 /* EditProfileTableViewCell.h */,
+				00713E901EEBD2D200DD8D44 /* EditProfileTableViewCell.m */,
+			);
+			path = "Edit Profile";
+			sourceTree = "<group>";
+		};
+		00713E961EEBD2E600DD8D44 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00713E991EEBD2E600DD8D44 /* User Info */,
+				006411C81F253A3200EE9D2F /* Friend Request */,
+			);
+			name = Model;
+			path = QuickFireChat/Model;
+			sourceTree = SOURCE_ROOT;
+		};
+		00713E991EEBD2E600DD8D44 /* User Info */ = {
+			isa = PBXGroup;
+			children = (
+				0097092A1F116CDB00157CB8 /* ModelUserInfo.swift */,
+			);
+			path = "User Info";
+			sourceTree = "<group>";
+		};
+		00713EAB1EEBD30600DD8D44 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				00713EAC1EEBD30600DD8D44 /* Base Class */,
+				00713EAE1EEBD30600DD8D44 /* Edit Profile */,
+				00713EB11EEBD30600DD8D44 /* Forgot password */,
+				00713EB41EEBD30600DD8D44 /* Login */,
+				00713EB81EEBD30600DD8D44 /* Sign up */,
+				00AF96471F12B32A002C7BBA /* Dashboard */,
+				00AF964E1F12B370002C7BBA /* UserList */,
+				005589351F1279BD002D57BE /* Friend List */,
+			);
+			name = ViewControllers;
+			path = QuickFireChat/ViewControllers;
+			sourceTree = SOURCE_ROOT;
+		};
+		00713EAC1EEBD30600DD8D44 /* Base Class */ = {
+			isa = PBXGroup;
+			children = (
+				00713EAD1EEBD30600DD8D44 /* BaseViewController.swift */,
+			);
+			path = "Base Class";
+			sourceTree = "<group>";
+		};
+		00713EAE1EEBD30600DD8D44 /* Edit Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Edit Profile";
+			sourceTree = "<group>";
+		};
+		00713EB11EEBD30600DD8D44 /* Forgot password */ = {
+			isa = PBXGroup;
+			children = (
+				CDA4A6851EF7C1CD00FDB2F5 /* ForgotPasswordVC.swift */,
+			);
+			path = "Forgot password";
+			sourceTree = "<group>";
+		};
+		00713EB41EEBD30600DD8D44 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				00713EB71EEBD30600DD8D44 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		00713EB81EEBD30600DD8D44 /* Sign up */ = {
+			isa = PBXGroup;
+			children = (
+				00EA2CFC1EF70EBF00F0550F /* SignUpVC.swift */,
+			);
+			path = "Sign up";
+			sourceTree = "<group>";
+		};
+		00713ED21EEBD4A400DD8D44 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				006411C41F252BAA00EE9D2F /* Friend_block_icon.png */,
+				006411C51F252BAA00EE9D2F /* FriendPending_iocn.png */,
+				CD8FAAB81F136BCF006D79F1 /* FriendReject_icon.png */,
+				CD8FAAB41F136522006D79F1 /* FriendRequest_icon.png */,
+				CD8FAAB61F13662B006D79F1 /* FriendAccept_icon.png */,
+				CD1E929D1EFBA8340044BB79 /* avatar.png */,
+				00EA2D041EF7191A00F0550F /* fire.png */,
+				00713ED31EEBD4A400DD8D44 /* back_arrow.png */,
+				00713ED41EEBD4A400DD8D44 /* bg_chat_1242x2208.jpg */,
+				00713ED51EEBD4A400DD8D44 /* bg_chat_640x1136.jpg */,
+				00713ED61EEBD4A400DD8D44 /* bg_chat_640x960.jpg */,
+				00713ED71EEBD4A400DD8D44 /* bg_chat_750x1334.jpg */,
+				00713ED81EEBD4A400DD8D44 /* bio_icon.png */,
+				00713ED91EEBD4A400DD8D44 /* calender_icon.png */,
+				00713EDA1EEBD4A400DD8D44 /* camera-256.png */,
+				00713EDB1EEBD4A400DD8D44 /* camera_red_icon_128x128.png */,
+				00713EDC1EEBD4A400DD8D44 /* changePassword_icon.png */,
+				00713EDD1EEBD4A400DD8D44 /* edit_profile.png */,
+				00713EDE1EEBD4A400DD8D44 /* f_logo_white.png */,
+				00713EDF1EEBD4A400DD8D44 /* forgot_pass.png */,
+				00713EE01EEBD4A400DD8D44 /* iphone 6s */,
+				00713EE41EEBD4A400DD8D44 /* iphone 6s plus */,
+				00713EE71EEBD4A400DD8D44 /* location_icon.png */,
+				00713EE81EEBD4A400DD8D44 /* logo.png */,
+				00713EE91EEBD4A400DD8D44 /* phone_icon.png */,
+			);
+			name = images;
+			path = QuickFireChat/images;
+			sourceTree = "<group>";
+		};
+		00713EE01EEBD4A400DD8D44 /* iphone 6s */ = {
+			isa = PBXGroup;
+			children = (
+				00713EE11EEBD4A400DD8D44 /* mail.png */,
+				00713EE21EEBD4A400DD8D44 /* password_icon@2x.png */,
+				00713EE31EEBD4A400DD8D44 /* user_icon@2x.png */,
+			);
+			path = "iphone 6s";
+			sourceTree = "<group>";
+		};
+		00713EE41EEBD4A400DD8D44 /* iphone 6s plus */ = {
+			isa = PBXGroup;
+			children = (
+				00713EE51EEBD4A400DD8D44 /* password_icon@3x.png */,
+				00713EE61EEBD4A400DD8D44 /* user_icon@3x.png */,
+			);
+			path = "iphone 6s plus";
+			sourceTree = "<group>";
+		};
+		008BDC551F083DF7004EB628 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				008BDC561F083E14004EB628 /* SignUpTableViewCell.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		00AF96411F12B2F8002C7BBA /* UserList */ = {
+			isa = PBXGroup;
+			children = (
+				00AF96441F12B2F8002C7BBA /* UserListTableViewCell.swift */,
+			);
+			path = UserList;
+			sourceTree = "<group>";
+		};
+		00AF96471F12B32A002C7BBA /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				00AF96481F12B32A002C7BBA /* DashboardVC.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		00AF964E1F12B370002C7BBA /* UserList */ = {
+			isa = PBXGroup;
+			children = (
+				00AF964F1F12B394002C7BBA /* UserListVC.swift */,
+			);
+			path = UserList;
+			sourceTree = "<group>";
+		};
+		00E330161F1225BA00A53468 /* FriendList */ = {
+			isa = PBXGroup;
+			children = (
+				00E330171F1225E900A53468 /* FriendListTableViewCell.swift */,
+				00E330181F1225E900A53468 /* FriendListTableViewCell.xib */,
+			);
+			path = FriendList;
+			sourceTree = "<group>";
+		};
+		3EEB954F0640FA82360EDFFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FFED0DCF75332EFA97BEDE6 /* Pods_QuickFireChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD1E929F1EFBD8070044BB79 /* Image Picker */ = {
+			isa = PBXGroup;
+			children = (
+				CD1E92A01EFBD83A0044BB79 /* ImagePicker.swift */,
+			);
+			path = "Image Picker";
+			sourceTree = "<group>";
+		};
+		CDAA25321F01488E005048BF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CDAA25331F0148AB005048BF /* LoginTableViewCell.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CFE587A09B7D9552EF152F40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AC93CCD9378AE17EDAA1928 /* Pods-QuickFireChat.debug.xcconfig */,
+				F417C91B12331830C8FE4589 /* Pods-QuickFireChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		003D5A641CA7CB7E0075E5FD /* QuickFireChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 003D5A7C1CA7CB7F0075E5FD /* Build configuration list for PBXNativeTarget "QuickFireChat" */;
+			buildPhases = (
+				C268FF8687EC705093566F16 /* [CP] Check Pods Manifest.lock */,
+				003D5A611CA7CB7E0075E5FD /* Sources */,
+				003D5A621CA7CB7E0075E5FD /* Frameworks */,
+				003D5A631CA7CB7E0075E5FD /* Resources */,
+				92EDD61A3E1D4FE08F6E8B2C /* [CP] Embed Pods Frameworks */,
+				2960B8E4454DB8E7A091CFDF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickFireChat;
+			productName = QuickChatDemo;
+			productReference = 003D5A651CA7CB7F0075E5FD /* QuickFireChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		003D5A5D1CA7CB7E0075E5FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Aviru bhattacharjee";
+				TargetAttributes = {
+					003D5A641CA7CB7E0075E5FD = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 67NAV3WPEU;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 003D5A601CA7CB7E0075E5FD /* Build configuration list for PBXProject "QuickFireChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 003D5A5C1CA7CB7E0075E5FD;
+			productRefGroup = 003D5A661CA7CB7F0075E5FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				003D5A641CA7CB7E0075E5FD /* QuickFireChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		003D5A631CA7CB7E0075E5FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8FAAB71F13662B006D79F1 /* FriendAccept_icon.png in Resources */,
+				00713E881EEBD2B700DD8D44 /* Roboto-MediumItalic.ttf in Resources */,
+				00EA2D051EF7191A00F0550F /* fire.png in Resources */,
+				00713E861EEBD2B700DD8D44 /* Roboto-LightItalic.ttf in Resources */,
+				00713E8B1EEBD2B700DD8D44 /* Roboto-ThinItalic.ttf in Resources */,
+				00713EEC1EEBD4A400DD8D44 /* bg_chat_640x1136.jpg in Resources */,
+				00713EFB1EEBD4A400DD8D44 /* user_icon@3x.png in Resources */,
+				00713EEA1EEBD4A400DD8D44 /* back_arrow.png in Resources */,
+				00713E8A1EEBD2B700DD8D44 /* Roboto-Thin.ttf in Resources */,
+				00713E871EEBD2B700DD8D44 /* Roboto-Medium.ttf in Resources */,
+				00713E841EEBD2B700DD8D44 /* Roboto-Italic.ttf in Resources */,
+				00713EF41EEBD4A400DD8D44 /* edit_profile.png in Resources */,
+				00713EF11EEBD4A400DD8D44 /* camera-256.png in Resources */,
+				00713E851EEBD2B700DD8D44 /* Roboto-Light.ttf in Resources */,
+				CD8FAAB91F136BCF006D79F1 /* FriendReject_icon.png in Resources */,
+				00713EF81EEBD4A400DD8D44 /* password_icon@2x.png in Resources */,
+				00713EF01EEBD4A400DD8D44 /* calender_icon.png in Resources */,
+				00713EFE1EEBD4A400DD8D44 /* phone_icon.png in Resources */,
+				00713E801EEBD2B700DD8D44 /* Roboto-Black.ttf in Resources */,
+				00713EEE1EEBD4A400DD8D44 /* bg_chat_750x1334.jpg in Resources */,
+				CD1E929E1EFBA8340044BB79 /* avatar.png in Resources */,
+				00713E821EEBD2B700DD8D44 /* Roboto-Bold.ttf in Resources */,
+				00713E891EEBD2B700DD8D44 /* Roboto-Regular.ttf in Resources */,
+				CD8FAAB51F136522006D79F1 /* FriendRequest_icon.png in Resources */,
+				00713EF51EEBD4A400DD8D44 /* f_logo_white.png in Resources */,
+				00713EEB1EEBD4A400DD8D44 /* bg_chat_1242x2208.jpg in Resources */,
+				00713E831EEBD2B700DD8D44 /* Roboto-BoldItalic.ttf in Resources */,
+				00713ECC1EEBD35000DD8D44 /* Info.plist in Resources */,
+				00713EF91EEBD4A400DD8D44 /* user_icon@2x.png in Resources */,
+				006411C71F252BAA00EE9D2F /* FriendPending_iocn.png in Resources */,
+				00713EED1EEBD4A400DD8D44 /* bg_chat_640x960.jpg in Resources */,
+				00EA2D021EF714E000F0550F /* LaunchScreen.storyboard in Resources */,
+				00DC6E2C1EEC60E30035E5DC /* GoogleService-Info.plist in Resources */,
+				00713EEF1EEBD4A400DD8D44 /* bio_icon.png in Resources */,
+				00713EF61EEBD4A400DD8D44 /* forgot_pass.png in Resources */,
+				00713ECA1EEBD31500DD8D44 /* Assets.xcassets in Resources */,
+				00713EF21EEBD4A400DD8D44 /* camera_red_icon_128x128.png in Resources */,
+				00713E811EEBD2B700DD8D44 /* Roboto-BlackItalic.ttf in Resources */,
+				00713E7F1EEBD2B700DD8D44 /* LICENSE.txt in Resources */,
+				00EA2D031EF714E000F0550F /* Main.storyboard in Resources */,
+				00713EF71EEBD4A400DD8D44 /* mail.png in Resources */,
+				006411C61F252BAA00EE9D2F /* Friend_block_icon.png in Resources */,
+				00713EFD1EEBD4A400DD8D44 /* logo.png in Resources */,
+				00713EF31EEBD4A400DD8D44 /* changePassword_icon.png in Resources */,
+				00713EFC1EEBD4A400DD8D44 /* location_icon.png in Resources */,
+				00713EFA1EEBD4A400DD8D44 /* password_icon@3x.png in Resources */,
+				00E3301A1F1225E900A53468 /* FriendListTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2960B8E4454DB8E7A091CFDF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickFireChat/Pods-QuickFireChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92EDD61A3E1D4FE08F6E8B2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickFireChat/Pods-QuickFireChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C268FF8687EC705093566F16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		003D5A611CA7CB7E0075E5FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00713E691EEBD29100DD8D44 /* ReachabilityManager.m in Sources */,
+				00E9E72E1EF5BAF300325A50 /* AppDelegate.m in Sources */,
+				008BDC571F083E14004EB628 /* SignUpTableViewCell.swift in Sources */,
+				00713E681EEBD29100DD8D44 /* GlobalUserDefaults.swift in Sources */,
+				CDAA25341F0148AB005048BF /* LoginTableViewCell.swift in Sources */,
+				00713EC51EEBD30600DD8D44 /* LoginViewController.swift in Sources */,
+				00713E941EEBD2D200DD8D44 /* EditProfileTableViewCell.m in Sources */,
+				00EA2CFD1EF70EBF00F0550F /* SignUpVC.swift in Sources */,
+				0061F73B1F1559DD006DED6A /* FirebaseUserSystem.swift in Sources */,
+				005589371F1279F6002D57BE /* FriendListVC.swift in Sources */,
+				00713E6A1EEBD29100DD8D44 /* Reachability.m in Sources */,
+				00AF96501F12B394002C7BBA /* UserListVC.swift in Sources */,
+				006411CA1F253A8000EE9D2F /* ModelFriendRequest.swift in Sources */,
+				007F0A3A1F00024E00A0AD8B /* RoundedButton.swift in Sources */,
+				00AF96461F12B2F8002C7BBA /* UserListTableViewCell.swift in Sources */,
+				00713EC11EEBD30600DD8D44 /* BaseViewController.swift in Sources */,
+				00713ED01EEBD42F00DD8D44 /* main.m in Sources */,
+				0097092B1F116CDB00157CB8 /* ModelUserInfo.swift in Sources */,
+				00AF964C1F12B32A002C7BBA /* DashboardVC.swift in Sources */,
+				00E330191F1225E900A53468 /* FriendListTableViewCell.swift in Sources */,
+				CD1E92A11EFBD83A0044BB79 /* ImagePicker.swift in Sources */,
+				CDA4A6861EF7C1CD00FDB2F5 /* ForgotPasswordVC.swift in Sources */,
+				00441E151EED3491004A12C3 /* ProgressHUD.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00EA2CFE1EF714E000F0550F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00EA2CFF1EF714E000F0550F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		00EA2D001EF714E000F0550F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00EA2D011EF714E000F0550F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		003D5A7A1CA7CB7F0075E5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickChatDemo/QuickChatDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		003D5A7B1CA7CB7F0075E5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickChatDemo/QuickChatDemo-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		003D5A7D1CA7CB7F0075E5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AC93CCD9378AE17EDAA1928 /* Pods-QuickFireChat.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 67NAV3WPEU;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickFireChat/QuickFireChat-Prefix.pch";
+				INFOPLIST_FILE = QuickFireChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aviru.QuickFireChat;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		003D5A7E1CA7CB7F0075E5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F417C91B12331830C8FE4589 /* Pods-QuickFireChat.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 67NAV3WPEU;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickFireChat/QuickFireChat-Prefix.pch";
+				INFOPLIST_FILE = QuickFireChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aviru.QuickFireChat;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		003D5A601CA7CB7E0075E5FD /* Build configuration list for PBXProject "QuickFireChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				003D5A7A1CA7CB7F0075E5FD /* Debug */,
+				003D5A7B1CA7CB7F0075E5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		003D5A7C1CA7CB7F0075E5FD /* Build configuration list for PBXNativeTarget "QuickFireChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				003D5A7D1CA7CB7F0075E5FD /* Debug */,
+				003D5A7E1CA7CB7F0075E5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 003D5A5D1CA7CB7E0075E5FD /* Project object */;
+}
