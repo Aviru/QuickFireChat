@@ -591,7 +591,7 @@ class FirebaseUserSystem {
                 ///Add receiverId as Key and dictionaryUser as coresponding values under "request" to DB for Friend request
                 
                 let receiverid = requestModel.strReceiverId!
-                self.DATABASE_REF.child("requests").child("\(receiverid)").setValue(dictionaryUser, withCompletionBlock: { (error, dbReference) in
+                self.DATABASE_REF.child("requests").child("\(receiverid)").childByAutoId().setValue(dictionaryUser, withCompletionBlock: { (error, dbReference) in
                     
                     if error != nil {
                         

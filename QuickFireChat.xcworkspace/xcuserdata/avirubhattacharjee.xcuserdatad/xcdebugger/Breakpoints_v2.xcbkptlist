@@ -225,8 +225,8 @@
                   symbolName = "QuickFireChat.ForgotPasswordVC.btnSubmitEmailAction (Any) -&gt; ()"
                   moduleName = "QuickFireChat"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_Orientations%202/QuickFireChat/ViewControllers/Forgot%20password/ForgotPasswordVC.swift"
-                  timestampString = "522536388.321176"
+                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_2407-2017/QuickFireChat/ViewControllers/Forgot%20password/ForgotPasswordVC.swift"
+                  timestampString = "523743516.561867"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "140"
@@ -240,8 +240,8 @@
                   symbolName = "QuickFireChat.ForgotPasswordVC.(btnSubmitEmailAction (Any) -&gt; ()).(closure #1)"
                   moduleName = "QuickFireChat"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_Orientations%202/QuickFireChat/ViewControllers/Forgot%20password/ForgotPasswordVC.swift"
-                  timestampString = "522536388.323256"
+                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_2407-2017/QuickFireChat/ViewControllers/Forgot%20password/ForgotPasswordVC.swift"
+                  timestampString = "523743516.564373"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "142"
@@ -289,8 +289,8 @@
                   symbolName = "QuickFireChat.SignUpVC.(btnSignUpTap (__ObjC.UIButton) -&gt; ()).(closure #1).(closure #1)"
                   moduleName = "QuickFireChat"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_Orientations%202/QuickFireChat/ViewControllers/Sign%20up/SignUpVC.swift"
-                  timestampString = "522536388.331315"
+                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_2407-2017/QuickFireChat/ViewControllers/Sign%20up/SignUpVC.swift"
+                  timestampString = "523743516.575994"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "349"
@@ -304,8 +304,8 @@
                   symbolName = "QuickFireChat.SignUpVC.(btnSignUpTap (__ObjC.UIButton) -&gt; ()).(closure #1).(closure #1).(closure #1)"
                   moduleName = "QuickFireChat"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_Orientations%202/QuickFireChat/ViewControllers/Sign%20up/SignUpVC.swift"
-                  timestampString = "522536388.333596"
+                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_2407-2017/QuickFireChat/ViewControllers/Sign%20up/SignUpVC.swift"
+                  timestampString = "523743516.578835"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "351"
@@ -337,8 +337,8 @@
                   symbolName = "QuickFireChat.SignUpVC.(btnSignUpTap (__ObjC.UIButton) -&gt; ()).(closure #1).(closure #1).(closure #1)"
                   moduleName = "QuickFireChat"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_Orientations%202/QuickFireChat/ViewControllers/Sign%20up/SignUpVC.swift"
-                  timestampString = "522536388.337845"
+                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_2407-2017/QuickFireChat/ViewControllers/Sign%20up/SignUpVC.swift"
+                  timestampString = "523743516.583983"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "353"
@@ -352,8 +352,8 @@
                   symbolName = "QuickFireChat.SignUpVC.(btnSignUpTap (__ObjC.UIButton) -&gt; ()).(closure #1).(closure #1).(closure #1).(closure #1)"
                   moduleName = "QuickFireChat"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_Orientations%202/QuickFireChat/ViewControllers/Sign%20up/SignUpVC.swift"
-                  timestampString = "522536388.339884"
+                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_2407-2017/QuickFireChat/ViewControllers/Sign%20up/SignUpVC.swift"
+                  timestampString = "523743516.586694"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "355"
@@ -385,8 +385,8 @@
                   symbolName = "QuickFireChat.FirebaseUserSystem.getUser (Swift.String, completion : (Swift.Optional&lt;QuickFireChat.ModelUserInfo&gt;, Swift.Bool, Swift.Optional&lt;QuickFireChat.CustomError&gt;) -&gt; ()) -&gt; ()"
                   moduleName = "QuickFireChat"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_Orientations%202/QuickFireChat/Custom%20Class/FirebaseUserSystem/FirebaseUserSystem.swift"
-                  timestampString = "522536388.344134"
+                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_2407-2017/QuickFireChat/Custom%20Class/FirebaseUserSystem/FirebaseUserSystem.swift"
+                  timestampString = "523743516.591032"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "77"
@@ -400,8 +400,8 @@
                   symbolName = "QuickFireChat.FirebaseUserSystem.(getUser (Swift.String, completion : (Swift.Optional&lt;QuickFireChat.ModelUserInfo&gt;, Swift.Bool, Swift.Optional&lt;QuickFireChat.CustomError&gt;) -&gt; ()) -&gt; ()).(closure #1)"
                   moduleName = "QuickFireChat"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_Orientations%202/QuickFireChat/Custom%20Class/FirebaseUserSystem/FirebaseUserSystem.swift"
-                  timestampString = "522536388.346337"
+                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_2407-2017/QuickFireChat/Custom%20Class/FirebaseUserSystem/FirebaseUserSystem.swift"
+                  timestampString = "523743516.594841"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "79"
@@ -414,7 +414,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "QuickFireChat/Custom Class/FirebaseUserSystem/FirebaseUserSystem.swift"
@@ -450,11 +450,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "QuickFireChat/ViewControllers/UserList/UserListVC.swift"
-            timestampString = "522535478.317751"
+            timestampString = "523743469.823733"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "279"
-            endingLineNumber = "279"
+            startingLineNumber = "281"
+            endingLineNumber = "281"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -481,8 +481,8 @@
                   symbolName = "QuickFireChat.FriendListVC.viewDidLoad () -&gt; ()"
                   moduleName = "QuickFireChat"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_Orientations%202/QuickFireChat/ViewControllers/Friend%20List/FriendListVC.swift"
-                  timestampString = "522536388.362446"
+                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_2407-2017/QuickFireChat/ViewControllers/Friend%20List/FriendListVC.swift"
+                  timestampString = "523743516.614052"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "31"
@@ -496,8 +496,8 @@
                   symbolName = "QuickFireChat.FriendListVC.(viewDidLoad () -&gt; ()).(closure #1)"
                   moduleName = "QuickFireChat"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_Orientations%202/QuickFireChat/ViewControllers/Friend%20List/FriendListVC.swift"
-                  timestampString = "522536388.365252"
+                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_2407-2017/QuickFireChat/ViewControllers/Friend%20List/FriendListVC.swift"
+                  timestampString = "523743516.61659"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "33"
@@ -609,8 +609,8 @@
                   symbolName = "QuickFireChat.FirebaseUserSystem.(getUserFromFirebaseDB (user : __ObjC.User, handler : (Swift.Bool, Swift.Optional&lt;QuickFireChat.CustomError&gt;) -&gt; ()) -&gt; ()).(closure #1)"
                   moduleName = "QuickFireChat"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_Orientations%202/QuickFireChat/Custom%20Class/FirebaseUserSystem/FirebaseUserSystem.swift"
-                  timestampString = "522536393.124751"
+                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_2407-2017/QuickFireChat/Custom%20Class/FirebaseUserSystem/FirebaseUserSystem.swift"
+                  timestampString = "523743516.643977"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "184"
@@ -624,8 +624,8 @@
                   symbolName = "QuickFireChat.FirebaseUserSystem.(getUserFromFirebaseDB (user : __ObjC.User, handler : (Swift.Bool, Swift.Optional&lt;QuickFireChat.CustomError&gt;) -&gt; ()) -&gt; ()).(closure #1)"
                   moduleName = "QuickFireChat"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_Orientations%202/QuickFireChat/Custom%20Class/FirebaseUserSystem/FirebaseUserSystem.swift"
-                  timestampString = "522536393.127408"
+                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_2407-2017/QuickFireChat/Custom%20Class/FirebaseUserSystem/FirebaseUserSystem.swift"
+                  timestampString = "523743516.646607"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "184"
@@ -721,70 +721,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "QuickFireChat/ViewControllers/Dashboard/DashboardVC.swift"
-            timestampString = "522492407.946533"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "135"
-            endingLineNumber = "135"
-            landmarkName = "viewDidLayoutSubviews()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "QuickFireChat/ViewControllers/UserList/UserListVC.swift"
-            timestampString = "522516891.750903"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "QuickFireChat.UserListVC.viewDidLoad () -&gt; ()"
-                  moduleName = "QuickFireChat"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_Orientations%202/QuickFireChat/ViewControllers/UserList/UserListVC.swift"
-                  timestampString = "522536393.831259"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "1172">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "QuickFireChat.UserListVC.(viewDidLoad () -&gt; ()).(closure #1)"
-                  moduleName = "QuickFireChat"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_Orientations%202/QuickFireChat/ViewControllers/UserList/UserListVC.swift"
-                  timestampString = "522536393.833938"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "42"
-                  endingLineNumber = "42"
-                  offsetFromSymbolStart = "108">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "QuickFireChat/ViewControllers/UserList/UserListVC.swift"
             timestampString = "522516891.750903"
             startingColumnNumber = "9223372036854775807"
@@ -817,86 +753,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "QuickFireChat/ViewControllers/UserList/UserListVC.swift"
-            timestampString = "522535478.317751"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "325"
-            endingLineNumber = "325"
-            landmarkName = "tableView(_:cellForRowAt:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "QuickFireChat.UserListVC.(tableView (__ObjC.UITableView, cellForRowAt : Foundation.IndexPath) -&gt; __ObjC.UITableViewCell).(closure #3).(closure #1)"
-                  moduleName = "QuickFireChat"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_Orientations%202/QuickFireChat/ViewControllers/UserList/UserListVC.swift"
-                  timestampString = "522536394.468394"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "325"
-                  endingLineNumber = "325"
-                  offsetFromSymbolStart = "1472">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "QuickFireChat.UserListVC.(tableView (__ObjC.UITableView, cellForRowAt : Foundation.IndexPath) -&gt; __ObjC.UITableViewCell).(closure #3).(closure #1).(closure #1)"
-                  moduleName = "QuickFireChat"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_Orientations%202/QuickFireChat/ViewControllers/UserList/UserListVC.swift"
-                  timestampString = "522536394.46977"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "327"
-                  endingLineNumber = "327"
-                  offsetFromSymbolStart = "40">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "QuickFireChat/ViewControllers/UserList/UserListVC.swift"
-            timestampString = "522535478.317751"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "331"
-            endingLineNumber = "331"
-            landmarkName = "tableView(_:cellForRowAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "QuickFireChat/ViewControllers/UserList/UserListVC.swift"
-            timestampString = "522535478.317751"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "335"
-            endingLineNumber = "335"
-            landmarkName = "tableView(_:cellForRowAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "QuickFireChat/Custom Class/FirebaseUserSystem/FirebaseUserSystem.swift"
             timestampString = "522536386.943749"
             startingColumnNumber = "9223372036854775807"
@@ -914,11 +770,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "QuickFireChat/Custom Class/FirebaseUserSystem/FirebaseUserSystem.swift"
-            timestampString = "522536386.943749"
+            timestampString = "523737234.830376"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "581"
-            endingLineNumber = "581"
+            startingLineNumber = "583"
+            endingLineNumber = "583"
             landmarkName = "addFriendRequestToFirebaseDB(requestModel:handler:)"
             landmarkType = "7">
             <Locations>
@@ -929,12 +785,12 @@
                   symbolName = "QuickFireChat.FirebaseUserSystem.addFriendRequestToFirebaseDB (requestModel : QuickFireChat.ModelFriendRequest, handler : (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
                   moduleName = "QuickFireChat"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_Orientations%202/QuickFireChat/Custom%20Class/FirebaseUserSystem/FirebaseUserSystem.swift"
-                  timestampString = "522536394.828486"
+                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_2407-2017/QuickFireChat/Custom%20Class/FirebaseUserSystem/FirebaseUserSystem.swift"
+                  timestampString = "523743516.701561"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "581"
-                  endingLineNumber = "581"
+                  startingLineNumber = "583"
+                  endingLineNumber = "583"
                   offsetFromSymbolStart = "1112">
                </Location>
                <Location
@@ -944,12 +800,220 @@
                   symbolName = "QuickFireChat.FirebaseUserSystem.(addFriendRequestToFirebaseDB (requestModel : QuickFireChat.ModelFriendRequest, handler : (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()).(closure #1)"
                   moduleName = "QuickFireChat"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_Orientations%202/QuickFireChat/Custom%20Class/FirebaseUserSystem/FirebaseUserSystem.swift"
-                  timestampString = "522536394.82986"
+                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_2407-2017/QuickFireChat/Custom%20Class/FirebaseUserSystem/FirebaseUserSystem.swift"
+                  timestampString = "523743516.705044"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "583"
-                  endingLineNumber = "583"
+                  startingLineNumber = "585"
+                  endingLineNumber = "585"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickFireChat/ViewControllers/UserList/UserListVC.swift"
+            timestampString = "523654928.074939"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QuickFireChat.UserListVC.viewDidLoad () -&gt; ()"
+                  moduleName = "QuickFireChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_2407-2017/QuickFireChat/ViewControllers/UserList/UserListVC.swift"
+                  timestampString = "523743516.711512"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "1172">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QuickFireChat.UserListVC.(viewDidLoad () -&gt; ()).(closure #1)"
+                  moduleName = "QuickFireChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_2407-2017/QuickFireChat/ViewControllers/UserList/UserListVC.swift"
+                  timestampString = "523743516.714234"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickFireChat/ViewControllers/Login/LoginViewController.swift"
+            timestampString = "523719307.045578"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "340"
+            endingLineNumber = "340"
+            landmarkName = "btnFBLoginTap(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickFireChat/Custom Class/FirebaseUserSystem/FirebaseUserSystem.swift"
+            timestampString = "523718203.675028"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "getUser(_:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickFireChat/ViewControllers/Login/LoginViewController.swift"
+            timestampString = "523719280.059061"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "175"
+            endingLineNumber = "175"
+            landmarkName = "btnFBLoginAction(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QuickFireChat.LoginViewController.(btnFBLoginAction (Any) -&gt; ()).(closure #1).(closure #1).(closure #1).(closure #1)"
+                  moduleName = "QuickFireChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_2407-2017/QuickFireChat/ViewControllers/Login/LoginViewController.swift"
+                  timestampString = "523743516.729028"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "175"
+                  endingLineNumber = "175"
+                  offsetFromSymbolStart = "1336">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QuickFireChat.LoginViewController.(btnFBLoginAction (Any) -&gt; ()).(closure #1).(closure #1).(closure #1).(closure #1).(closure #1)"
+                  moduleName = "QuickFireChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_2407-2017/QuickFireChat/ViewControllers/Login/LoginViewController.swift"
+                  timestampString = "523743516.731034"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "177"
+                  endingLineNumber = "177"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickFireChat/ViewControllers/Login/LoginViewController.swift"
+            timestampString = "523719282.802898"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "181"
+            endingLineNumber = "181"
+            landmarkName = "btnFBLoginAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickFireChat/ViewControllers/Login/LoginViewController.swift"
+            timestampString = "523719284.96303"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "193"
+            endingLineNumber = "193"
+            landmarkName = "btnFBLoginAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickFireChat/Custom Class/FirebaseUserSystem/FirebaseUserSystem.swift"
+            timestampString = "523737236.830912"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "594"
+            endingLineNumber = "594"
+            landmarkName = "addFriendRequestToFirebaseDB(requestModel:handler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QuickFireChat.FirebaseUserSystem.(addFriendRequestToFirebaseDB (requestModel : QuickFireChat.ModelFriendRequest, handler : (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "QuickFireChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_2407-2017/QuickFireChat/Custom%20Class/FirebaseUserSystem/FirebaseUserSystem.swift"
+                  timestampString = "523743516.741962"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "594"
+                  endingLineNumber = "594"
+                  offsetFromSymbolStart = "468">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QuickFireChat.FirebaseUserSystem.(addFriendRequestToFirebaseDB (requestModel : QuickFireChat.ModelFriendRequest, handler : (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()).(closure #1).(closure #1)"
+                  moduleName = "QuickFireChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_2407-2017/QuickFireChat/Custom%20Class/FirebaseUserSystem/FirebaseUserSystem.swift"
+                  timestampString = "523743516.743582"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "596"
+                  endingLineNumber = "596"
                   offsetFromSymbolStart = "28">
                </Location>
             </Locations>
@@ -961,14 +1025,110 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "QuickFireChat/Custom Class/FirebaseUserSystem/FirebaseUserSystem.swift"
-            timestampString = "522537306.521338"
+            filePath = "QuickFireChat/ViewControllers/UserList/UserListVC.swift"
+            timestampString = "523743469.823733"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "615"
-            endingLineNumber = "615"
-            landmarkName = "FirebaseUserSystem"
-            landmarkType = "3">
+            startingLineNumber = "297"
+            endingLineNumber = "297"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickFireChat/ViewControllers/UserList/UserListVC.swift"
+            timestampString = "523745353.203506"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "301"
+            endingLineNumber = "301"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickFireChat/ViewControllers/UserList/UserListVC.swift"
+            timestampString = "523743200.007588"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QuickFireChat.UserListVC.viewDidLoad () -&gt; ()"
+                  moduleName = "QuickFireChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_2407-2017/QuickFireChat/ViewControllers/UserList/UserListVC.swift"
+                  timestampString = "523743516.756744"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "1300">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QuickFireChat.UserListVC.(viewDidLoad () -&gt; ()).(closure #2)"
+                  moduleName = "QuickFireChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/avirubhattacharjee/Desktop/DOCUMENTS/Files/My%20Projects%20and%20programs/Incompleted%20Projects/QuickfireChat/QuickFireChat_2407-2017/QuickFireChat/ViewControllers/UserList/UserListVC.swift"
+                  timestampString = "523743516.758107"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickFireChat/ViewControllers/UserList/UserListVC.swift"
+            timestampString = "523745353.203506"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "323"
+            endingLineNumber = "323"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickFireChat/ViewControllers/UserList/UserListVC.swift"
+            timestampString = "523745353.203506"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "325"
+            endingLineNumber = "325"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

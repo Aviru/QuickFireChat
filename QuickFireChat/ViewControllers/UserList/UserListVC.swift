@@ -75,7 +75,9 @@ class UserListVC: BaseViewController,UITableViewDelegate,UITableViewDataSource {
         }
         
         FirebaseUserSystem.system.addRequestObserver({ (isRequestSuccess, error) in
-                        
+            
+            self.progressHUD.hide()
+            
             if error == nil {
                 
                 self.tblUserList.reloadData()
@@ -298,19 +300,49 @@ class UserListVC: BaseViewController,UITableViewDelegate,UITableViewDataSource {
                         
                         if objFrndReq.strRequestStatus == "Pending" {
                             
-                            cell.imgVwFriendStatusIcon.image = UIImage(named: "FriendPending_iocn.png")
+                            cell.btnFriendOutlet.isUserInteractionEnabled = false
+                            cell.imgVwFriendStatusIcon.image = UIImage(named: "FriendRequestSent_icon.png")
                         }
                         else if  objFrndReq.strRequestStatus == "Rejected" {
                             
+                            cell.btnFriendOutlet.isUserInteractionEnabled = true
+                            cell.imgVwFriendStatusIcon.image = UIImage(named: "FriendRequest_icon.png")
+                        }
+                        else if  objFrndReq.strRequestStatus == "Accepted" {
+                            
+                            cell.btnFriendOutlet.isUserInteractionEnabled = false
+                            cell.imgVwFriendStatusIcon.image = UIImage(named: "FriendAccept_icon.png")
+                        }
+                        else {
+                            
+                            cell.btnFriendOutlet.isUserInteractionEnabled = true
+                            cell.imgVwFriendStatusIcon.image = UIImage(named: "FriendRequest_icon.png")
+                        }
+                        
+                    }
+                    else if objFrndReq.strSenderId == objUserModel.strUserId {
+                        
+                        if objFrndReq.strRequestStatus == "Pending" {
+                            
+                            cell.btnFriendOutlet.isUserInteractionEnabled = true
+                            cell.imgVwFriendStatusIcon.image = UIImage(named: "FriendRequestIncoming_icon.png")
+                        }
+                        else if  objFrndReq.strRequestStatus == "Rejected" {
+                            
+                            cell.btnFriendOutlet.isUserInteractionEnabled = false
                             cell.imgVwFriendStatusIcon.image = UIImage(named: "FriendReject_icon.png")
                         }
                         else if  objFrndReq.strRequestStatus == "Accepted" {
                             
+                            cell.btnFriendOutlet.isUserInteractionEnabled = false
                             cell.imgVwFriendStatusIcon.image = UIImage(named: "FriendAccept_icon.png")
                         }
                         else {
+                            
+                            cell.btnFriendOutlet.isUserInteractionEnabled = true
                             cell.imgVwFriendStatusIcon.image = UIImage(named: "FriendRequest_icon.png")
                         }
+                        
                     }
                 }
             }
@@ -323,49 +355,134 @@ class UserListVC: BaseViewController,UITableViewDelegate,UITableViewDataSource {
         
         cell.setButtonFriendTapFunction {
             
-            let actionSheetController: UIAlertController = UIAlertController(title: "", message: "Do you want to send friend request?", preferredStyle: .alert)
-            let okAction: UIAlertAction = UIAlertAction(title: "Yes", style: .default) { action -> Void in
-                //Just dismiss the action sheet
+            if self.isFirstImageEqualToSecondImage(image1Name: "FriendRequest_icon.png", image1: nil, image2: cell.imgVwFriendStatusIcon.image!) {
                 
-                self.progressHUD = ProgressHUD(text: "Loading...")
-                self.view.addSubview(self.progressHUD)
-                
-                let dictionaryRequest = [ "senderId" : appDelUserInfoModelObj.instanceOfUserInfoModelObject!.strUserId! ,
-                                       "receiverId" : objUserModel.strUserId!,
-                                       "status" : "Pending",
-                                       ] as [String : Any]
-                
-                 let objFrndRequest = ModelFriendRequest.init(infoDic: dictionaryRequest as NSDictionary)
-                
-            FirebaseUserSystem.system.addFriendRequestToFirebaseDB(requestModel: objFrndRequest, handler: { (isfriendAdded, error) in
-                
-                self.progressHUD.hide()
-                
-                if error == nil {
+                let actionSheetController: UIAlertController = UIAlertController(title: "", message: "Do you want to send friend request?", preferredStyle: .alert)
+                let okAction: UIAlertAction = UIAlertAction(title: "Yes", style: .default) { action -> Void in
+                    //Just dismiss the action sheet
                     
-                    self.showAlertMessage(titl: "", msg: "Friend Request sent successfully", displayTwoButtons: false)
+                    self.progressHUD = ProgressHUD(text: "Loading...")
+                    self.view.addSubview(self.progressHUD)
                     
-                    self.tblUserList.reloadData()
+                    let dictionaryRequest = [ "senderId" : appDelUserInfoModelObj.instanceOfUserInfoModelObject!.strUserId! ,
+                                              "receiverId" : objUserModel.strUserId!,
+                                              "status" : "Pending",
+                                              ] as [String : Any]
                     
+                    let objFrndRequest = ModelFriendRequest.init(infoDic: dictionaryRequest as NSDictionary)
+                    
+                    FirebaseUserSystem.system.addFriendRequestToFirebaseDB(requestModel: objFrndRequest, handler: { (isfriendAdded, error) in
+                        
+                        self.progressHUD.hide()
+                        
+                        if error == nil {
+                            
+                            self.showAlertMessage(titl: "", msg: "Friend Request sent successfully", displayTwoButtons: false)
+                            
+                            self.tblUserList.reloadData()
+                            
+                        }
+                        else {
+                            self.showAlertMessage(titl: "Error", msg:  (error?.localizedDescription)!, displayTwoButtons: false)
+                            return
+                        }
+                    })
+                    
+                    
+                    actionSheetController.dismiss(animated: true, completion: nil)
                 }
-                else {
-                    self.showAlertMessage(titl: "Error", msg:  (error?.localizedDescription)!, displayTwoButtons: false)
-                    return
-                }
-            })
+                actionSheetController.addAction(okAction)
                 
-                
-                actionSheetController.dismiss(animated: true, completion: nil)
-            }
-            actionSheetController.addAction(okAction)
-            
                 let cancelAction: UIAlertAction = UIAlertAction(title: "No", style: .cancel) { action -> Void in
                     //Just dismiss the action sheet
-                     actionSheetController.dismiss(animated: true, completion: nil)
-            }
+                    actionSheetController.dismiss(animated: true, completion: nil)
+                }
                 actionSheetController.addAction(cancelAction)
-            
-            self.present(actionSheetController, animated: true, completion: nil)
+                
+                self.present(actionSheetController, animated: true, completion: nil)
+                
+            }
+            else {
+                
+                if  FirebaseUserSystem.system.requestList.count > 0 {
+                    for  objFrndReq:ModelFriendRequest in FirebaseUserSystem.system.requestList {
+                        
+                        if objFrndReq.strReceiverId == objUserModel.strUserId {
+                            
+                            if  objFrndReq.strRequestStatus == "Rejected" {
+                                
+                                let actionSheetController: UIAlertController = UIAlertController(title: "", message: "This User has already rejected your request. Do you want to send friend request again?", preferredStyle: .alert)
+                                let okAction: UIAlertAction = UIAlertAction(title: "Yes", style: .default) { action -> Void in
+                                    //Just dismiss the action sheet
+                                    
+                                    self.progressHUD = ProgressHUD(text: "Loading...")
+                                    self.view.addSubview(self.progressHUD)
+                                    
+                                    let dictionaryRequest = [ "senderId" : appDelUserInfoModelObj.instanceOfUserInfoModelObject!.strUserId! ,
+                                                              "receiverId" : objUserModel.strUserId!,
+                                                              "status" : "Pending",
+                                                              ] as [String : Any]
+                                    
+                                    let objFrndRequest = ModelFriendRequest.init(infoDic: dictionaryRequest as NSDictionary)
+                                    
+                                    FirebaseUserSystem.system.addFriendRequestToFirebaseDB(requestModel: objFrndRequest, handler: { (isfriendAdded, error) in
+                                        
+                                        self.progressHUD.hide()
+                                        
+                                        if error == nil {
+                                            
+                                            self.showAlertMessage(titl: "", msg: "Friend Request sent successfully", displayTwoButtons: false)
+                                            
+                                            self.tblUserList.reloadData()
+                                            
+                                        }
+                                        else {
+                                            self.showAlertMessage(titl: "Error", msg:  (error?.localizedDescription)!, displayTwoButtons: false)
+                                            return
+                                        }
+                                    })
+                                    
+                                    
+                                    actionSheetController.dismiss(animated: true, completion: nil)
+                                }
+                                actionSheetController.addAction(okAction)
+                                
+                                let cancelAction: UIAlertAction = UIAlertAction(title: "No", style: .cancel) { action -> Void in
+                                    //Just dismiss the action sheet
+                                    actionSheetController.dismiss(animated: true, completion: nil)
+                                }
+                                actionSheetController.addAction(cancelAction)
+                                
+                                self.present(actionSheetController, animated: true, completion: nil)
+                            }
+                        }
+                        
+                        else if objFrndReq.strSenderId == objUserModel.strUserId {
+                            
+                            if objFrndReq.strRequestStatus == "Pending" {
+                                
+                                let actionSheetController: UIAlertController = UIAlertController(title: "", message: "Do you want to Accept or Reject this request?", preferredStyle: .alert)
+                                let okAction: UIAlertAction = UIAlertAction(title: "Accept", style: .default) { action -> Void in
+                                    //Just dismiss the action sheet
+                                    
+                                    
+                                    
+                                    actionSheetController.dismiss(animated: true, completion: nil)
+                                }
+                                actionSheetController.addAction(okAction)
+                                
+                                let cancelAction: UIAlertAction = UIAlertAction(title: "Reject", style: .destructive) { action -> Void in
+                                    //Just dismiss the action sheet
+                                    actionSheetController.dismiss(animated: true, completion: nil)
+                                }
+                                actionSheetController.addAction(cancelAction)
+                                
+                                self.present(actionSheetController, animated: true, completion: nil)
+                            }
+                        }
+                    }
+                }
+            }
             
         }
         

@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		001359561F37AF1300B246D6 /* FriendRequestIncoming_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 001359541F37AF1300B246D6 /* FriendRequestIncoming_icon.png */; };
+		001359571F37AF1300B246D6 /* FriendRequestSent_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 001359551F37AF1300B246D6 /* FriendRequestSent_icon.png */; };
 		00441E151EED3491004A12C3 /* ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00441E141EED3491004A12C3 /* ProgressHUD.swift */; };
 		005589371F1279F6002D57BE /* FriendListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005589361F1279F6002D57BE /* FriendListVC.swift */; };
 		0061F73B1F1559DD006DED6A /* FirebaseUserSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0061F73A1F1559DD006DED6A /* FirebaseUserSystem.swift */; };
 		006411C61F252BAA00EE9D2F /* Friend_block_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 006411C41F252BAA00EE9D2F /* Friend_block_icon.png */; };
-		006411C71F252BAA00EE9D2F /* FriendPending_iocn.png in Resources */ = {isa = PBXBuildFile; fileRef = 006411C51F252BAA00EE9D2F /* FriendPending_iocn.png */; };
 		006411CA1F253A8000EE9D2F /* ModelFriendRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006411C91F253A8000EE9D2F /* ModelFriendRequest.swift */; };
 		00713E681EEBD29100DD8D44 /* GlobalUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00713E5E1EEBD29100DD8D44 /* GlobalUserDefaults.swift */; };
 		00713E691EEBD29100DD8D44 /* ReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00713E621EEBD29100DD8D44 /* ReachabilityManager.m */; };
@@ -81,12 +82,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		001359541F37AF1300B246D6 /* FriendRequestIncoming_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FriendRequestIncoming_icon.png; sourceTree = "<group>"; };
+		001359551F37AF1300B246D6 /* FriendRequestSent_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FriendRequestSent_icon.png; sourceTree = "<group>"; };
 		003D5A651CA7CB7F0075E5FD /* QuickFireChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickFireChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00441E141EED3491004A12C3 /* ProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressHUD.swift; sourceTree = "<group>"; };
 		005589361F1279F6002D57BE /* FriendListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendListVC.swift; sourceTree = "<group>"; };
 		0061F73A1F1559DD006DED6A /* FirebaseUserSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseUserSystem.swift; sourceTree = "<group>"; };
 		006411C41F252BAA00EE9D2F /* Friend_block_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Friend_block_icon.png; sourceTree = "<group>"; };
-		006411C51F252BAA00EE9D2F /* FriendPending_iocn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FriendPending_iocn.png; sourceTree = "<group>"; };
 		006411C91F253A8000EE9D2F /* ModelFriendRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelFriendRequest.swift; sourceTree = "<group>"; };
 		00713E5E1EEBD29100DD8D44 /* GlobalUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalUserDefaults.swift; sourceTree = "<group>"; };
 		00713E5F1EEBD29100DD8D44 /* QickChat-Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QickChat-Constant.h"; sourceTree = "<group>"; };
@@ -445,7 +447,8 @@
 			isa = PBXGroup;
 			children = (
 				006411C41F252BAA00EE9D2F /* Friend_block_icon.png */,
-				006411C51F252BAA00EE9D2F /* FriendPending_iocn.png */,
+				001359541F37AF1300B246D6 /* FriendRequestIncoming_icon.png */,
+				001359551F37AF1300B246D6 /* FriendRequestSent_icon.png */,
 				CD8FAAB81F136BCF006D79F1 /* FriendReject_icon.png */,
 				CD8FAAB41F136522006D79F1 /* FriendRequest_icon.png */,
 				CD8FAAB61F13662B006D79F1 /* FriendAccept_icon.png */,
@@ -601,9 +604,9 @@
 				TargetAttributes = {
 					003D5A641CA7CB7E0075E5FD = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = 67NAV3WPEU;
+						DevelopmentTeam = TVX637QK9Z;
 						LastSwiftMigration = 0830;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -639,6 +642,7 @@
 				00713EFB1EEBD4A400DD8D44 /* user_icon@3x.png in Resources */,
 				00713EEA1EEBD4A400DD8D44 /* back_arrow.png in Resources */,
 				00713E8A1EEBD2B700DD8D44 /* Roboto-Thin.ttf in Resources */,
+				001359561F37AF1300B246D6 /* FriendRequestIncoming_icon.png in Resources */,
 				00713E871EEBD2B700DD8D44 /* Roboto-Medium.ttf in Resources */,
 				00713E841EEBD2B700DD8D44 /* Roboto-Italic.ttf in Resources */,
 				00713EF41EEBD4A400DD8D44 /* edit_profile.png in Resources */,
@@ -659,9 +663,9 @@
 				00713E831EEBD2B700DD8D44 /* Roboto-BoldItalic.ttf in Resources */,
 				00713ECC1EEBD35000DD8D44 /* Info.plist in Resources */,
 				00713EF91EEBD4A400DD8D44 /* user_icon@2x.png in Resources */,
-				006411C71F252BAA00EE9D2F /* FriendPending_iocn.png in Resources */,
 				00713EED1EEBD4A400DD8D44 /* bg_chat_640x960.jpg in Resources */,
 				00EA2D021EF714E000F0550F /* LaunchScreen.storyboard in Resources */,
+				001359571F37AF1300B246D6 /* FriendRequestSent_icon.png in Resources */,
 				00DC6E2C1EEC60E30035E5DC /* GoogleService-Info.plist in Resources */,
 				00713EEF1EEBD4A400DD8D44 /* bio_icon.png in Resources */,
 				00713EF61EEBD4A400DD8D44 /* forgot_pass.png in Resources */,
@@ -801,10 +805,12 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Aviru Bhattacharjee (L74V47PD4S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Aviru Bhattacharjee (L74V47PD4S)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TVX637QK9Z;
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -827,6 +833,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "aefa6c85-9483-41ad-a715-07f414bd9f89";
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -851,10 +858,12 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Aviru Bhattacharjee (L74V47PD4S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Aviru Bhattacharjee (L74V47PD4S)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TVX637QK9Z;
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -870,6 +879,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "aefa6c85-9483-41ad-a715-07f414bd9f89";
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -884,9 +894,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Aviru Bhattacharjee (L74V47PD4S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Aviru Bhattacharjee (L74V47PD4S)";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 67NAV3WPEU;
+				DEVELOPMENT_TEAM = TVX637QK9Z;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QuickFireChat/QuickFireChat-Prefix.pch";
@@ -896,7 +907,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.aviru.QuickFireChat;
 				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "aefa6c85-9483-41ad-a715-07f414bd9f89";
+				PROVISIONING_PROFILE_SPECIFIER = wildCard_dev_prov;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -910,9 +922,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Aviru Bhattacharjee (L74V47PD4S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Aviru Bhattacharjee (L74V47PD4S)";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 67NAV3WPEU;
+				DEVELOPMENT_TEAM = TVX637QK9Z;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QuickFireChat/QuickFireChat-Prefix.pch";
@@ -922,7 +935,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.aviru.QuickFireChat;
 				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "aefa6c85-9483-41ad-a715-07f414bd9f89";
+				PROVISIONING_PROFILE_SPECIFIER = wildCard_dev_prov;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};

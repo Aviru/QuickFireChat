@@ -169,51 +169,81 @@ class LoginViewController: BaseViewController,UITextFieldDelegate,UITableViewDel
                                         
                                         let firUser : User = user!
                                         
-                                         print("user description:\(String(describing: firUser))")
+                                        print("user description:\(String(describing: firUser))")
                                         
-                                        if let fbImgURL = URL(string: fbUserDetails["imageURL"]!){
+                                        
+                                        FirebaseUserSystem.system.getUserFromFirebaseDB(user: firUser, handler: { (retrieveStatus, customError) in
                                             
-                                            self.getImageFromUrl(url: fbImgURL , completion: { (imgData, response, error) in
+                                            self.progressHUD.hide()
+                                            
+                                            if retrieveStatus == true{
                                                 
-                                                if error != nil {
+                                                if GlobalUserDefaults.saveObject(obj: "YES" as AnyObject, key: "IsLoggedIn") {
                                                     
-                                                    self.progressHUD.hide()
-                                                    self.showAlertMessage(titl: "Error", msg:  (error?.localizedDescription)!, displayTwoButtons: false)
+                                                    print("LoggedIn status saved to UserDefaults")
+                                                }
+                                                else{
                                                     
-                                                    return
+                                                    print("unable to LoggedIn status save UserDefaults")
                                                 }
                                                 
-                                                if imgData != nil{
+                                                self.performSegue(withIdentifier: "showUserListFromLogin", sender: nil)
+                                            }
+                                            else{
+                                                
+                                                if let fbImgURL = URL(string: fbUserDetails["imageURL"]!){
                                                     
-                                                    self.imageData = imgData
-                                                    self.imgName = dict["facebookID"]
-                                                    
-                                                    FirebaseUserSystem.system.saveImageToFirebase(userProfileImage: nil, imageName: self.imgName, imageData: self.imageData, user: firUser, handler: { (uploadedImgURL, isImageSaved, customError) in
+                                                    self.getImageFromUrl(url: fbImgURL , completion: { (imgData, response, error) in
                                                         
-                                                        if isImageSaved == true{
+                                                        if error != nil {
                                                             
-                                                            FirebaseUserSystem.system.saveUserToFirebaseDB(userName: firUser.displayName!, imageDownloadedURL: firUser.photoURL!.absoluteString, user: firUser, handler: { (dataSavedStatus,error) in
+                                                            self.progressHUD.hide()
+                                                            self.showAlertMessage(titl: "Error", msg:  (error?.localizedDescription)!, displayTwoButtons: false)
+                                                            
+                                                            return
+                                                        }
+                                                        
+                                                        if imgData != nil{
+                                                            
+                                                            self.imageData = imgData
+                                                            self.imgName = dict["facebookID"]
+                                                            
+                                                            FirebaseUserSystem.system.saveImageToFirebase(userProfileImage: nil, imageName: self.imgName, imageData: self.imageData, user: firUser, handler: { (uploadedImgURL, isImageSaved, customError) in
                                                                 
-                                                                print("user description:\(String(describing: user!))")
-                                                                
-                                                                self.progressHUD.hide()
-                                                                
-                                                                if dataSavedStatus == true{
+                                                                if isImageSaved == true{
                                                                     
-                                                                    if GlobalUserDefaults.saveObject(obj: "YES" as AnyObject, key: "IsLoggedIn") {
+                                                                    FirebaseUserSystem.system.saveUserToFirebaseDB(userName: firUser.displayName!, imageDownloadedURL: firUser.photoURL!.absoluteString, user: firUser, handler: { (dataSavedStatus,error) in
                                                                         
-                                                                        print("LoggedIn status saved to UserDefaults")
-                                                                    }
-                                                                    else{
+                                                                        print("user description:\(String(describing: user!))")
                                                                         
-                                                                        print("unable to LoggedIn status save UserDefaults")
-                                                                    }
-                                                                    
-                                                                    self.performSegue(withIdentifier: "showUserListFromLogin", sender: nil)
+                                                                        self.progressHUD.hide()
+                                                                        
+                                                                        if dataSavedStatus == true{
+                                                                            
+                                                                            if GlobalUserDefaults.saveObject(obj: "YES" as AnyObject, key: "IsLoggedIn") {
+                                                                                
+                                                                                print("LoggedIn status saved to UserDefaults")
+                                                                            }
+                                                                            else{
+                                                                                
+                                                                                print("unable to LoggedIn status save UserDefaults")
+                                                                            }
+                                                                            
+                                                                            self.performSegue(withIdentifier: "showUserListFromLogin", sender: nil)
+                                                                        }
+                                                                        else{
+                                                                            
+                                                                            self.showAlertMessage(titl: "Error", msg:  (error?.localizedDescription)!, displayTwoButtons: false)
+                                                                            
+                                                                            return
+                                                                        }
+                                                                        
+                                                                    })
                                                                 }
                                                                 else{
                                                                     
-                                                                    self.showAlertMessage(titl: "Error", msg:  (error?.localizedDescription)!, displayTwoButtons: false)
+                                                                    self.progressHUD.hide()
+                                                                    self.showAlertMessage(titl: "Error", msg:  (customError?.localizedDescription)!, displayTwoButtons: false)
                                                                     
                                                                     return
                                                                 }
@@ -223,28 +253,20 @@ class LoginViewController: BaseViewController,UITextFieldDelegate,UITableViewDel
                                                         else{
                                                             
                                                             self.progressHUD.hide()
-                                                            self.showAlertMessage(titl: "Error", msg:  (customError?.localizedDescription)!, displayTwoButtons: false)
-                                                            
-                                                            return
+                                                            self.showAlertMessage(titl: "", msg: "Something went wrong! Unable to download image", displayTwoButtons: false)
                                                         }
-
+                                                        
                                                     })
-                                                    
                                                 }
-                                                else{
-                                                    
+                                                else
+                                                {
+                                                    print("Facebook Image not available")
                                                     self.progressHUD.hide()
-                                                    self.showAlertMessage(titl: "", msg: "Something went wrong! Unable to download image", displayTwoButtons: false)
+                                                    self.showAlertMessage(titl: "", msg: "Facebook image not available", displayTwoButtons: false)
                                                 }
-                                                
-                                            })
-                                        }
-                                        else
-                                        {
-                                            print("Facebook Image not available")
-                                            self.progressHUD.hide()
-                                            self.showAlertMessage(titl: "", msg: "Facebook image not available", displayTwoButtons: false)
-                                        }
+                                            }
+                                        })
+                                        
                                         
                                     }
                                     
@@ -319,151 +341,8 @@ class LoginViewController: BaseViewController,UITextFieldDelegate,UITableViewDel
         
         sender.convert(CGPoint.zero, to: self.tblLogin)
         
-        self.progressHUD = ProgressHUD(text: "Loading...")
-        self.view.addSubview(self.progressHUD)
+        self.btnFBLoginAction(sender:self)
         
-        if (FBSDKAccessToken.current() != nil)
-        {
-            self.progressHUD.hide()
-            FBSDKAccessToken.setCurrent(nil)
-            let loginManager: FBSDKLoginManager = FBSDKLoginManager()
-            loginManager.logOut()
-        }
-        else
-        {
-            let requiredPermissions = ["public_profile", "email", "user_friends"]
-            
-            let fbLoginManager : FBSDKLoginManager = FBSDKLoginManager()
-            fbLoginManager.logIn(withReadPermissions: requiredPermissions, from: self, handler: { (result, error) in
-                
-                let fbloginresult : FBSDKLoginManagerLoginResult = result!
-                
-                if(error != nil){
-                    
-                    self.progressHUD.hide()
-                }
-                    
-                else if(fbloginresult.isCancelled){
-                    
-                    self.progressHUD.hide()
-                }
-                    
-                else{
-                    
-                    if(fbloginresult.grantedPermissions.contains("email"))
-                    {
-                        
-                        self.getFBUserDetails(handler: { (dict) in
-                            
-                            if (dict.isEmpty == false) {
-                                
-                                DispatchQueue.main.async {
-                                    
-                                    let fbUserDetails : [String: String] = dict
-                                    print(fbUserDetails)
-                                    
-                                    let credential = FacebookAuthProvider.credential(withAccessToken: FBSDKAccessToken.current().tokenString)
-                                    
-                                    Auth.auth().signIn(with: credential) { (user, error) in
-                                        
-                                        if error != nil {
-                                            
-                                            self.progressHUD.hide()
-                                            self.showAlertMessage(titl: "Error", msg:  (error?.localizedDescription)!, displayTwoButtons: false)
-                                            
-                                            return
-                                        }
-                                        // User is signed in
-                                        // ...
-                                        
-                                        let firUser : User = user!
-                                        
-                                        print("user description:\(String(describing: firUser))")
-                                        
-                                        if let fbImgURL = URL(string: fbUserDetails["imageURL"]!){
-                                            
-                                            self.getImageFromUrl(url: fbImgURL , completion: { (imgData, response, error) in
-                                                
-                                                if error != nil {
-                                                    
-                                                    self.progressHUD.hide()
-                                                    self.showAlertMessage(titl: "Error", msg:  (error?.localizedDescription)!, displayTwoButtons: false)
-                                                    
-                                                    return
-                                                }
-                                                
-                                                if imgData != nil{
-                                                    
-                                                    self.imageData = imgData
-                                                    self.imgName = dict["facebookID"]
-                                                    
-                                                    FirebaseUserSystem.system.saveImageToFirebase(userProfileImage: nil, imageName: self.imgName, imageData: self.imageData, user: firUser, handler: { (uploadedImgURL, isImageSaved, customError) in
-                                                        
-                                                        if isImageSaved == true{
-                                                            
-                                                            FirebaseUserSystem.system.saveUserToFirebaseDB(userName: firUser.displayName!, imageDownloadedURL: firUser.photoURL!.absoluteString, user: firUser, handler: { (dataSavedStatus,error) in
-                                                                
-                                                                print("user description:\(String(describing: user!))")
-                                                                
-                                                                self.progressHUD.hide()
-                                                                
-                                                                if dataSavedStatus == true{
-                                                                    
-                                                                    if GlobalUserDefaults.saveObject(obj: "YES" as AnyObject, key: "IsLoggedIn") {
-                                                                        
-                                                                        print("LoggedIn status saved to UserDefaults")
-                                                                    }
-                                                                    else{
-                                                                        
-                                                                        print("unable to LoggedIn status save UserDefaults")
-                                                                    }
-                                                                    
-                                                                    self.performSegue(withIdentifier: "showUserListFromLogin", sender: nil)
-                                                                }
-                                                                else{
-                                                                    
-                                                                    self.showAlertMessage(titl: "Error", msg:  (error?.localizedDescription)!, displayTwoButtons: false)
-                                                                    
-                                                                    return
-                                                                }
-                                                                
-                                                            })
-                                                        }
-                                                        else{
-                                                            
-                                                            self.progressHUD.hide()
-                                                            self.showAlertMessage(titl: "Error", msg:  (customError?.localizedDescription)!, displayTwoButtons: false)
-                                                            
-                                                            return
-                                                        }
-                                                        
-                                                    })
-                                                }
-                                                else{
-                                                    
-                                                    self.progressHUD.hide()
-                                                    self.showAlertMessage(titl: "", msg: "Something went wrong! Unable to download image", displayTwoButtons: false)
-                                                }
-                                                
-                                            })
-                                        }
-                                        else
-                                        {
-                                            print("Facebook Image not available")
-                                            self.progressHUD.hide()
-                                            self.showAlertMessage(titl: "", msg: "Facebook image not available", displayTwoButtons: false)
-                                        }
-                                        
-                                    }
-                                    
-                                }
-                            }
-                        })
-                    }
-                }
-                
-            })
-        }
     }
     
     //MARK:- Function
